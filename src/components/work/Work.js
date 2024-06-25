@@ -20,11 +20,11 @@ function Work() {
                     </h1>
 
 
-                    <div className="flex flex-row pb-2 ">
+                    <div className="flex flex-col md:justify-between md:flex-row pb-2  ">
 
                         {/* company name */}
                         <h1 className=" text-white text-lg">
-                            Oneture Technologies |
+                            Oneture Technologies 
                         </h1>
 
                         <span className='my-1 mx-2 text-sm text-t-accent'  >
@@ -66,11 +66,11 @@ function Work() {
                 </h1>
 
 
-                <div className="flex flex-row pb-2 ">
+                <div className="flex flex-col md:justify-between md:flex-row pb-2  ">
 
                     {/* company name */}
                     <h1 className=" text-white text-lg">
-                        Oneture Technologies |
+                        Oneture Technologies 
                     </h1>
 
                     <span className='my-1 mx-2 text-sm text-t-accent'  >

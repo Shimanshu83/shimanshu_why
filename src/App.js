@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Project from './components/project/Project';
 import Work from './components/work/Work';
+import Skill from './components/skills/Skill';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
@@ -18,11 +19,13 @@ function App() {
         <Project></Project>
         <Work></Work>
 
+        <Skill></Skill>
+
         {/* adding my social media links here for better visibility */}
         <div className="w-full h-full flex flex-col mt-8 text-base"  >
           <h1 className="text-white text-xl" >Socials</h1>
 
-          <div className='flex flex-center text-neutral-200 space-x-3 pt-4'>
+          <div className='flex flex-wrap  text-neutral-200 gap-x-3 pt-4'>
 
             <span className='text-neutral-500'  > You can find more of my work here </span>
 
@@ -46,6 +49,8 @@ function App() {
           </div >
 
         </div>
+
+
 
       </div>
 
