@@ -13,9 +13,7 @@ function HomePage() {
 
             <Skill></Skill>
 
-            
-
-
+        
         </>
 
 
