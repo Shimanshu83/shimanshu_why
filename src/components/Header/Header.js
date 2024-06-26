@@ -53,12 +53,12 @@ function Header() {
 
   return (
     <>
-      <h1 className="pt-4 text-white text-xl">
+      <h1 className="pt-2 text-white text-xl">
         Hey, I'm Shimanshu 👋
       </h1>
 
       <p className='text-t-secondary pt-6 sm:leading-7'>
-        A full stack developer with 2+ years of experience in tech. I honed my skills at Blue Sky Analytics, shaping SpaceTime's user experience. I've tackled diverse freelance projects globally. Also, left my mark on the Google Play Store with Blue Wallet and ColorPie, celebrating over 4000+ downloads.
+        A full stack developer with 2+ years of experience in tech.  I've tackled diverse  projects and worked in various different tech stack.
       </p>
 
       <div className='flex justify-between flex-center' >
