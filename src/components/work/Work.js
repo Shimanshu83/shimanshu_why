@@ -6,65 +6,56 @@ function Work() {
 
         <>
 
-            <div className='w-full h-full  border-l-neutral-800 border-l flex flex-row ms-4 gap-3 pb-8'>
+            <div className='w-full h-full border-l-neutral-800 border-l flex flex-row ms-4 gap-3 pb-8'>
 
                 {/* dot  style={{transform:" translateX(50%)"}}  */}
-                <div className="-translate-x-2/4  w-3 h-3 rounded-full mt-2 gap-2  border border-t-accent border-background bg-t-accent"></div>
+                <div className="-translate-x-2/4 w-3 h-3 rounded-full mt-2 gap-2 border border-t-accent border-background bg-t-accent"></div>
 
-                {/* different component will be visible to you here  */}
-                <div className="w-full flex flex-col"  >
+                {/* different component will be visible to you here */}
+                <div className="w-full flex flex-col">
 
                     {/* role */}
-                    <h1 className=" mb-2 text-white text-base">
+                    <h1 className="mb-2 text-white text-base">
                         Full Stack Developer
                     </h1>
 
-
-                    <div className="flex flex-col md:justify-between md:flex-row pb-2  ">
+                    <div className="flex flex-col md:justify-between md:flex-row pb-2">
 
                         {/* company name */}
-                        <h1 className=" text-white text-lg">
+                        <h1 className="text-white text-lg">
                             Oneture Technologies.
                         </h1>
 
-                        <span className='my-1 mx-2 text-sm text-t-accent'  >
-                            March 2024 - Present 
+                        <span className='my-1 mx-2 text-sm text-t-accent'>
+                            March 2024 - Present
                         </span>
                     </div>
 
-
-                    {/* all the work will be placed here  */}
-
+                    {/* all the work will be placed here */}
                     <ol class='list-decimal text-neutral-500'>
                         <li class='text-neutral-500 text-sm sm:leading-7'>
-                            Developed and maintained web applications using
-                            <span class="ml-1 text-neutral-200">Node.js</span> ,
-                            <span class="ml-1 text-neutral-200">Express.js</span> ,
-                            <span class="ml-1 text-neutral-200">Angular</span> ,
-                            <span class="ml-1 text-neutral-200">Mysql</span> ,
-                            <span class="ml-1 text-neutral-200">Redis</span> ,
-                            <span class="ml-1 text-neutral-200">HTML</span> ,
-                            <span class="ml-1 text-neutral-200">CSS</span> ,
-                            <span class="ml-1 text-neutral-200">JavaScript</span> and other technologies.
+                            Took ownership of projects from <span class="ml-1 text-neutral-200">inception to deployment</span>, ensuring <span class="ml-1 text-neutral-200">quality</span> and <span class="ml-1 text-neutral-200">timely delivery</span> of all services.
                         </li>
                         <li class='text-neutral-500 text-sm sm:leading-7'>
-                            Worked on crucial features of loyalty applications such as
-                            <span class="ml-1 text-neutral-200">Rule Engine</span> ,
-                            <span class="ml-1 text-neutral-200">Coupon Engine</span> ,
-                            <span class="ml-1 text-neutral-200">Fraud Detection</span> , etc.
+                            Developed microservices using <span class="ml-1 text-neutral-200">Golang</span> and <span class="ml-1 text-neutral-200">React</span> for a major bank in India, focusing on enhancing their <span class="ml-1 text-neutral-200">digital infrastructure</span>.
                         </li>
                         <li class='text-neutral-500 text-sm sm:leading-7'>
-                            Wrote clean, modular, and well-documented code, adhering to
-                            <span class="ml-1 text-neutral-200">best practices</span> and
-                            <span class="ml-1 text-neutral-200">design patterns</span> , for effortless collaboration and future updates.
+                            Successfully created <span class="ml-1 text-neutral-200">two complete microservices</span>, handling both frontend development in <span class="ml-1 text-neutral-200">React</span> and backend development in <span class="ml-1 text-neutral-200">Golang</span>.
                         </li>
-                       
+                        <li class='text-neutral-500 text-sm sm:leading-7'>
+                            Contributed to the development of critical modules, including an <span class="ml-1 text-neutral-200">e-signature module</span> and a <span class="ml-1 text-neutral-200">crypto module</span>.
+                        </li>
+                        <li class='text-neutral-500 text-sm sm:leading-7'>
+                            Utilized <span class="ml-1 text-neutral-200">AWS</span> and <span class="ml-1 text-neutral-200">Docker</span> for efficient deployment and scalability of services.
+                        </li>
+                        <li class='text-neutral-500 text-sm sm:leading-7'>
+                            Collaborated closely with business stakeholders to thoroughly understand requirements and deliver <span class="ml-1 text-neutral-200">effective solutions</span>.
+                        </li>
                     </ol>
-
-
 
                 </div>
             </div>
+
 
             <div className='w-full h-full  border-l-neutral-800 border-l flex flex-row ms-4 gap-3 pb-8'>
 
