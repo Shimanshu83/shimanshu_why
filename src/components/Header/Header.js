@@ -34,10 +34,11 @@ function Header() {
             </Link>
           )}
 
-          <div className='flex flex-center space-x-2 cursor-pointer hover:text-t-accent'>
+          {/* commenting for now but will add this later with my new articles that I like to build */}
+          {/* <div className='flex flex-center space-x-2 cursor-pointer hover:text-t-accent'>
             <span>blog</span>
             <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-          </div>
+          </div> */}
 
 
         </div>
