@@ -15,7 +15,7 @@ function Project() {
         <div className='relative bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
           <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
             <a href="https://github.com/Shimanshu83/http_webserver" target="_blank" rel="noopener noreferrer">
-              <span>HTTP Server</span>
+              <span className="pr-2">HTTP Server</span>
               <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
             </a>
           </div>
@@ -36,7 +36,7 @@ function Project() {
         <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
           <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
             <a href="https://play.google.com/store/apps/details?id=com.maha.satbara&hl=en_IN" target="_blank" rel="noopener noreferrer">
-              <span>Satbara Agriculture App</span>
+              <span className="pr-2" >Satbara Agriculture App</span>
               <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
             </a>
           </div>
@@ -76,7 +76,7 @@ function Project() {
 
 
         {/* Simply Test Project */}
-        <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
+        {/* <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
           <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
             <span>Simply Test</span>
             <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
@@ -93,7 +93,7 @@ function Project() {
             <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">HTML</div>
             <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">CSS</div>
           </div>
-        </div>
+        </div> */}
 
 
 
