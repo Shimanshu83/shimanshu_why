@@ -16,7 +16,7 @@ function Header() {
       </h1>
 
       <p className='text-t-secondary pt-6 sm:leading-7'>
-        A full stack developer with 2+ years of experience in tech.  I've tackled diverse  projects and worked in various different tech stack.
+        A full stack developer with 3 years of experience and with high learning rate.  I've tackled diverse  projects and worked in various different tech stack.
       </p>
 
       <div className='flex justify-between flex-center' >

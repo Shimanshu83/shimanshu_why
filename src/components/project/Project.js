@@ -9,6 +9,72 @@ function Project() {
 
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 mb-6'>
 
+        
+
+        {/* HTTP Server Project */}
+        <div className='relative bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
+          <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
+            <a href="https://github.com/Shimanshu83/http_webserver" target="_blank" rel="noopener noreferrer">
+              <span>HTTP Server</span>
+              <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
+            </a>
+          </div>
+          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
+            I have worked on building an HTTP/1.1 server that can serve multiple clients. This project involved understanding TCP servers, HTTP request syntax, and other related concepts. The entry point for the HTTP server implementation is in <code>app/server.go</code>.
+          </p>
+          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">GOLANG</div>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">HTTP</div>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">TCP</div>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">NET Package</div>
+          </div>
+        </div>
+
+
+
+        {/* Satbara Agriculture App Project */}
+        <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
+          <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
+            <a href="https://play.google.com/store/apps/details?id=com.maha.satbara&hl=en_IN" target="_blank" rel="noopener noreferrer">
+              <span>Satbara Agriculture App</span>
+              <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
+            </a>
+          </div>
+          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
+            Developed the backend for the Satbara Agriculture app, which has over a million downloads. The backend was built using Node.js and Express.js to serve APIs, with MongoDB as the database. This app provides essential services to farmers by offering easy access to agricultural records and related information.
+          </p>
+          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">NODE</div>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">EXPRESS</div>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">MONGO DB</div>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">REST APIs</div>
+          </div>
+        </div>
+
+
+
+
+        {/* nand 2 tetris Project */}
+        <div className='relative bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
+          <div className='absolute  border-stone-400 border top-2 right-2  text-white text-xs font-bold px-2 py-1 rounded'>
+            In Progress
+          </div>
+          <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
+            <a href="https://github.com/Shimanshu83/nand2Tetris" target="_blank" rel="noopener noreferrer">
+              <span className="pr-2">nand 2 tetris</span>
+              <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
+            </a>
+          </div>
+          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
+            nand 2 tetris is a comprehensive project-based course that takes you from building simple logic gates from NAND to creating a fully functioning computer and a modern software system. The course teaches you how to construct a computer from scratch, covering both hardware and software aspects.
+          </p>
+          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">HARDWARE</div>
+            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">SOFTWARE</div>
+          </div>
+        </div>
+
+
         {/* Simply Test Project */}
         <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
           <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
@@ -29,56 +95,8 @@ function Project() {
           </div>
         </div>
 
-        {/* Satbara Agriculture App Project */}
-        <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
-          <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
-            <span>Satbara Agriculture App</span>
-            <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-          </div>
-          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
-            Created an Express.js app to serve APIs to Satbara Agriculture app using Node.js and MongoDB.
-          </p>
-          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">NODE</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">EXPRESS</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">MONGO DB</div>
-          </div>
-        </div>
 
-        {/* Memories Project */}
-        <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
-          <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
-            <span>Memories</span>
-            <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-          </div>
-          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
-            The app is called "Memories" and it is a social media app that allows users to share their memories. 
-            Developed from 10/2021 to the present.
-          </p>
-          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
-            {/* Add the relevant technologies used for the Memories project */}
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">REACT</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">NODE</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">EXPRESS</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">MONGO DB</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">CSS</div>
-          </div>
-        </div>
 
-        {/* xandzero Project */}
-        <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
-          <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
-            <span>xandzero</span>
-            <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-          </div>
-          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
-            xandzero is a CLI implementation of the classic game tic-tac-toe, also known as x and zero. It offers a customizable gaming experience, allowing players to choose the size of the game board.
-          </p>
-          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">GOLANG</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">COBRA</div>
-          </div>
-        </div>
 
       </div>
     </>
