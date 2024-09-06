@@ -40,7 +40,7 @@ function Work() {
                             Developed microservices using <span class="ml-1 text-neutral-200">Golang</span> and <span class="ml-1 text-neutral-200">React</span> for a major bank in India, focusing on enhancing their <span class="ml-1 text-neutral-200">digital infrastructure</span>.
                         </li>
                         <li class='text-neutral-500 text-sm sm:leading-7'>
-                            Successfully created <span class="ml-1 text-neutral-200">two complete microservices</span>, handling both frontend development in <span class="ml-1 text-neutral-200">React</span> and backend development in <span class="ml-1 text-neutral-200">Golang</span>.
+                            Successfully created <span class="ml-1 text-neutral-200">two complete srvices on my own</span>, handling both frontend development in <span class="ml-1 text-neutral-200">React</span> and backend development in <span class="ml-1 text-neutral-200">Golang</span>.
                         </li>
                         <li class='text-neutral-500 text-sm sm:leading-7'>
                             Contributed to the development of critical modules, including an <span class="ml-1 text-neutral-200">e-signature module</span> and a <span class="ml-1 text-neutral-200">crypto module</span>.
