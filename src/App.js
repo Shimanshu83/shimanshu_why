@@ -1,4 +1,3 @@
-
 import './App.css';
 import { BrowserRouter as Router, Route, Navigate, Routes } from 'react-router-dom';
 import HomePage from './pages/home/Home.page';
@@ -6,6 +5,7 @@ import WorkPage from './pages/work/Work.page';
 import Header from './components/Header/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import Blog from './components/Blog';
 
 
 
@@ -26,6 +26,7 @@ function App() {
 
             <Route path="/" element={<HomePage />} />
             <Route path="/work" element={<WorkPage />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="*" element={<Navigate to="/" replace />} />
 
           </Routes>
@@ -68,6 +69,17 @@ function App() {
                 <span>GitHub</span>
                 <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
               </a>
+
+              <a
+                href="https://medium.com/@shimanshuyadav83"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='flex flex-center space-x-2 text-neutral-200 cursor-pointer hover:text-t-accent'
+              >
+                <span>Medium</span>
+                <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
+              </a>
+              
             </div>
           </div>
         </div>

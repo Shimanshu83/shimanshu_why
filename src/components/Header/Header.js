@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare, faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -16,31 +14,35 @@ function Header() {
       </h1>
 
       <p className='text-t-secondary pt-6 sm:leading-7'>
-        A full stack developer with 3 years of experience and with high learning rate.  I've tackled diverse  projects and worked in various different tech stack.
+        A highly motivated <span class="font-bold">full-stack developer</span> with <span class="font-bold">3 years of experience</span>, known for taking ownership of projects from <span class="font-bold">inception to deployment</span>. Passionate about learning new technologies, solving complex problems, and working across diverse tech stacks. Proven track record of building <span class="font-bold">scalable applications</span>, optimizing performance, and delivering high-quality solutions across <span class="font-bold">frontend</span>, <span class="font-bold">backend</span>, and <span class="font-bold">DevOps</span>.
       </p>
 
       <div className='flex justify-between flex-center' >
 
         <div className='flex flex-center text-t-secondary-dark space-x-6 pt-4'>
-          {isWorkRoute ? (
-            <Link to='/' className='flex flex-center space-x-2 text-t-secondary-dark cursor-pointer hover:text-t-accent'>
-              <span>home</span>
-              <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-            </Link>
-          ) : (
-            <Link to='/work' className='flex flex-center space-x-2 text-t-secondary-dark cursor-pointer hover:text-t-accent'>
-              <span>work</span>
-              <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-            </Link>
-          )}
+          <Link 
+            to='/' 
+            className={`flex flex-center space-x-2 cursor-pointer hover:text-t-accent ${location.pathname === '/' ? 'text-t-accent' : 'text-t-secondary-dark'}`}
+          >
+            <span>home</span>
+            <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
+          </Link>
 
-          {/* commenting for now but will add this later with my new articles that I like to build */}
-          {/* <div className='flex flex-center space-x-2 cursor-pointer hover:text-t-accent'>
+          <Link 
+            to='/work' 
+            className={`flex flex-center space-x-2 cursor-pointer hover:text-t-accent ${location.pathname === '/work' ? 'text-t-accent' : 'text-t-secondary-dark'}`}
+          >
+            <span>work</span>
+            <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
+          </Link>
+
+          <Link 
+            to='/blog' 
+            className={`flex flex-center space-x-2 cursor-pointer hover:text-t-accent ${location.pathname === '/blog' ? 'text-t-accent' : 'text-t-secondary-dark'}`}
+          >
             <span>blog</span>
             <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-          </div> */}
-
-
+          </Link>
         </div>
 
         <a
