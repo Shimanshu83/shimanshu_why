@@ -33,15 +33,15 @@ function Work() {
 
                     {/* all the work will be placed here */}
                     <ol class='list-decimal text-neutral-500'>
-                         <li class='text-neutral-500 text-sm sm:leading-7'>
+                        <li class='text-neutral-500 text-sm sm:leading-7'>
                             Engineered a crucial Golang-based batch processing program that efficiently handled <span class="ml-1 text-neutral-200"> 4-5 million  </span>customer records using  <span class="ml-1 text-neutral-200"> optimized concurrency </span> , significantly boosting operational performance.
-                            <a 
-                              href="https://medium.com/@shimanshuyadav83/batch-processing-in-golang-updating-millions-of-customer-records-efficiently-e0305dbe31fc" 
-                              target="_blank" 
-                              rel="noopener noreferrer" 
-                              className='ml-2 text-t-accent cursor-pointer hover:underline'
+                            <a
+                                href="https://medium.com/@shimanshuyadav83/batch-processing-in-golang-updating-millions-of-customer-records-efficiently-e0305dbe31fc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className='ml-2 text-t-accent cursor-pointer hover:underline'
                             >
-                              Read more
+                                Read more
                             </a>
                         </li>
                         <li class='text-neutral-500 text-sm sm:leading-7'>
@@ -53,11 +53,11 @@ function Work() {
                         <li class='text-neutral-500 text-sm sm:leading-7'>
                             Engineered multiple batch processing and report generation programs in <span class="ml-1 text-neutral-200">Golang</span>, reducing the Ops team's workload by <span class="ml-1 text-neutral-200">30%</span> through automation and efficiency improvements.
                         </li>
-                        
+
                         <li class='text-neutral-500 text-sm sm:leading-7'>
                             Took ownership of projects from <span class="ml-1 text-neutral-200">inception to deployment</span>, ensuring <span class="ml-1 text-neutral-200">quality</span> and <span class="ml-1 text-neutral-200">timely delivery</span> of all projects, earning <span class="ml-1 text-neutral-200">Employee of the Month</span> award.
                         </li>
-                       
+
                         <li class='text-neutral-500 text-sm sm:leading-7'>
                             Contributed to the development of critical modules, including an <span class="ml-1 text-neutral-200">e-signature module</span> and a <span class="ml-1 text-neutral-200">crypto module</span>.
                         </li>
@@ -67,7 +67,7 @@ function Work() {
                         <li class='text-neutral-500 text-sm sm:leading-7'>
                             Collaborated closely with business stakeholders to thoroughly understand requirements and deliver <span class="ml-1 text-neutral-200">effective solutions</span>.
                         </li>
-                        
+
                     </ol>
 
                 </div>
@@ -106,8 +106,9 @@ function Work() {
                     <ol class='list-decimal text-neutral-500'>
                         <li class='text-neutral-500 text-sm sm:leading-7'>
                             Developed and maintained web applications using
+                            <span class="ml-1 text-neutral-200">Golang </span> ,
+                            <span class="ml-1 text-neutral-200">React js</span> ,
                             <span class="ml-1 text-neutral-200">Node.js</span> ,
-                            <span class="ml-1 text-neutral-200">Express.js</span> ,
                             <span class="ml-1 text-neutral-200">Angular</span> ,
                             <span class="ml-1 text-neutral-200">Mysql</span> ,
                             <span class="ml-1 text-neutral-200">Redis</span> ,
